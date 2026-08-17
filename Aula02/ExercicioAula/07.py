@@ -17,3 +17,17 @@ Para estar em condições de aposentadoria, um dos seguintes requisitos deve ser
  
 Caso não satisfaça nenhuma das condições mostre: 
 'Não requerer Aposentadoria'''
+rg = input("Digite o rg do empregado:\n")
+anoAtual = int(input("Digite o ano atual:\n"))
+nasc = int(input("Digite o ano de nascimento:\n"))
+anoIngresso = int(input("Digite o ano de ingresso na empresa:\n"))
+
+idade = anoAtual - nasc
+trabalho = anoAtual - anoIngresso
+print(f"RG do Colaborador: {rg}\nIdade: {idade}\nTempo de trabalho: {trabalho} ano\n")
+if idade >= 60 and trabalho>=30:
+    print(f"Requerer aposentadoria")
+elif idade>=65 or trabalho>=30:
+    print(f"Requerer aposentadoria")
+else:
+    print(f"Não requerer Aposentadoria")
