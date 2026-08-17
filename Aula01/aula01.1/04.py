@@ -1,0 +1,1 @@
+#Faça um algoritmo que leia o ano de nascimento de uma pessoa, e leia o nome da pessoa, leia o ano atual e escreva quantos anos essa pessoa tem, e mostre o nome digitado.
