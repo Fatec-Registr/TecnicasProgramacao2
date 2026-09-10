@@ -27,7 +27,6 @@ elif opcao == 3:
         resultado = pow(n1,3)
 else:
     print("Valor invalido\n")
-    opcao = "invalida"
-    resultado= "Error"
+    exit()
 print(f"Sendo o primeiro numero {n1}e {n2} o segundo e a esolha for o {opcao}, temos: \nREsultado: {resultado}")
 
