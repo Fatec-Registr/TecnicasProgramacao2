@@ -16,3 +16,13 @@
 # 4 x 9 = 36
 # 4 x 10 = 40
 # 4 x 11 = 44
+tabuada = int(input("Tabuada de: "))
+inicio = int(input("Inicio: "))
+final = int(input("Final: "))
+
+i = inicio
+
+while i <= final:
+    resp = tabuada * i
+    print(f"{tabuada} x {i} = {resp}")
+    i += 1
